@@ -1,0 +1,22 @@
+{
+  "name": "lamdatest-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "test:iphone": "node parallel.local.js --test=1",
+    "test:galaxy": "node parallel.local.js  --test=2",
+    "test:parallel": "node parallel.local.js",
+    "test:cloud": "node parallel.cloud.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "puppeteer": "^25.1.0",
+    "puppeteer-core": "^25.1.0"
+  }
+}
